@@ -11,10 +11,6 @@
 - [Undo & Recovery](#undo--recovery)
 - [Conflicts (and how to fix them)](#conflicts-and-how-to-fix-them)
 - [`.gitignore` Essentials](#gitignore-essentials)
-- [Practice Exercises](#practice-exercises)
-- [Bonus: Profile README template](#bonus-profile-readme-template)
-- [Next Steps & Resources](#next-steps--resources)
-
 ---
 
 ## Quick Start (5 minutes)
@@ -197,47 +193,6 @@ Find ready templates: https://github.com/github/gitignore
 
 ---
 
-## Practice Exercises
-- [ ] Create a new repo and push it to GitHub.
-- [ ] Open an issue describing a small feature.
-- [ ] Create `feature/hello-world` branch and implement it.
-- [ ] Open a PR referencing your issue (`Fixes #1`).
-- [ ] Request a review from a friend; squash-merge the PR.
-- [ ] Create a conflict intentionally by editing the same line on two branches; resolve it.
-- [ ] Add a `.gitignore` suitable for Python or Node.
-
----
-
-## Bonus: Profile README template
-> Create a repo named **`<your-username>/<your-username>`** to show this on your GitHub profile.
-
-```md
-# Hi, I'm Your Name 
-
-**Software Engineer specializing in Python, Data Science, and AI—transforming complex ideas into scalable, elegant solutions.**
-
-- Working on: Intelligent data products & ML tooling
-- Learning: Advanced Git, CI/CD, MLOps
-- Ask me about: Python, FastAPI, Pandas, scikit-learn, LangChain
-- Reach me: your.email@example.com
-
-### Tech Stack
-Python · FastAPI · Pandas · NumPy · scikit‑learn · PyTorch · SQL · Docker · Git & GitHub · Linux
-
-### Highlights
-- Built production‑grade data pipelines and AI features
-- End‑to‑end model lifecycle: data → training → evaluation → deployment
-
-> _“Simple is better than complex.” — The Zen of Python_
-```
-
----
-
-## Next Steps & Resources
-- Official Git Book: https://git-scm.com/book
-- GitHub Docs: https://docs.github.com/
-- Learn Git branching (interactive): https://learngitbranching.js.org/
-- Conventional Commits: https://www.conventionalcommits.org/
 
 Happy committing!
 
