@@ -115,6 +115,12 @@ git stash                     # stash changes
 git stash pop                 # reapply last stash
 ```
 
+### Clone Repository  
+```bash
+git clone <repository-url>  
+cd <folder-name>  
+```
+
 ---
 
 ## Working with GitHub
