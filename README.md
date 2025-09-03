@@ -115,6 +115,32 @@ git stash                     # stash changes
 git stash pop                 # reapply last stash
 ```
 
+### Git Commands for Pushing Code to GitHub
+
+These commands will help you push your code from VS Code to a GitHub repository.
+
+### Command Sequence
+
+```bash
+# Initialize a new Git repository in your project folder
+git init
+
+# Add all files in the current directory to the staging area
+git add .
+
+# Commit the staged files with a descriptive message
+git commit -m "first commit"
+
+# Add the remote repository URL (replace <url> with your actual GitHub repo URL)
+git remote add origin <url>
+
+# Rename the default branch to 'main' (GitHub's default branch name)
+git branch -M main
+
+# Push your code to the remote repository, overwriting any existing history (use with caution!)
+git push origin main --force
+```
+
 ### Clone Repository  
 ```bash
 git clone <repository-url>  
